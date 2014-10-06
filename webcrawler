@@ -1,0 +1,15 @@
+# CS 5700: Project 2  Team : "mjnsh"
+
+#variable declaration
+
+#End of variable declaration block
+
+#Check if the number of arguments are not less than 2
+if [[ "$#" -lt 2 ]] ; then
+   echo "Usage: ./webcrawler [USERNAME] [PASSWORD]"
+   exit 2
+fi
+
+java -cp .:./lib/jsoup-1.7.3.jar CrawlerMain $1 $2
+
+

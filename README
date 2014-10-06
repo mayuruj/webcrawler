@@ -1,0 +1,8 @@
+Hello all !!
+This is a simple webcrawler attempt. Please do not run this code on public websites as the code does not check Robots.txt
+Follow these steps to run the code
+
+
+1) Download this code and run make command in the working directory
+2) run the script webcrawler passing parameters username and password to it
+3) You are good to go
